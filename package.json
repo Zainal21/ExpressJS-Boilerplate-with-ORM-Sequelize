@@ -1,24 +1,24 @@
 {
-  "name": "e-course-learning-system-project-backend",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "serve": "node ./bin/www",
-    "test": "mocha"
-  },
-  "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "dotenv": "^8.2.0",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "mysql2": "^2.2.5",
-    "sequelize": "^6.3.5"
-  },
-  "devDependencies": {
-    "mocha": "^8.1.3",
-    "sequelize-cli": "^6.2.0"
-  }
+	"name": "expressjs-boilerplate",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"serve": "node ./bin/www",
+		"test": "mocha"
+	},
+	"dependencies": {
+		"cookie-parser": "~1.4.4",
+		"debug": "~2.6.9",
+		"dotenv": "^8.2.0",
+		"ejs": "~2.6.1",
+		"express": "~4.16.1",
+		"http-errors": "~1.6.3",
+		"morgan": "~1.9.1",
+		"mysql2": "^2.2.5",
+		"sequelize": "^6.3.5"
+	},
+	"devDependencies": {
+		"mocha": "^8.1.3",
+		"sequelize-cli": "^6.2.0"
+	}
 }
