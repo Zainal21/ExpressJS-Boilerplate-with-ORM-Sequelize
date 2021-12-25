@@ -1,1 +1,1 @@
-ExpressJS-Boilerplate--MYSQL-with--ORM-Sequelize
+ExpressJS-Boilerplate--MYSQL-POSTGRESQL-with--ORM-Sequelize
