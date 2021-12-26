@@ -1,7 +1,9 @@
 /** @format */
-
 module.exports = {
-	JSONFormatter: ({ action, res_body }, res) => {
+	ResponseFormatter: ({
+		action,
+		res_body
+	}, res) => {
 		switch (action) {
 			case "SUCCESS":
 				res.status(200).json({
@@ -26,4 +28,4 @@ module.exports = {
 				break;
 		}
 	},
-};
+}
