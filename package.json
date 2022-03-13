@@ -20,6 +20,7 @@
 		"email-templates": "^8.0.8",
 		"express": "~4.16.1",
 		"faker": "^5.5.3",
+		"fastest-validator": "^1.12.0",
 		"http-errors": "~1.6.3",
 		"jsonwebtoken": "^8.5.1",
 		"morgan": "^1.10.0",
