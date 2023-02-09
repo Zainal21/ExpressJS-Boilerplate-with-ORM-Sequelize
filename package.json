@@ -8,6 +8,10 @@
     "dev": "nodemon ./bin/www",
     "db:init": "npx sequelize-cli init --force",
     "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
+    "db:migrate": "npx sequelize-cli db:migrate",
+    "db:migrate:rollback": "npx sequelize-cli db:migrate:undo",
+    "db:migrate:rollback --all": "npx sequelize-cli db:migrate:undo",
+    "db:seed": "npx sequelize-cli db:seed:all",
     "prestart": "./node_modules/.bin/sequelize db:migrate && ./node_modules/.bin/sequelize db:seed:all"
   },
   "dependencies": {
