@@ -1,0 +1,9 @@
+FROM registry.gitlab.com/zainal21/express-js-boilerplate:0.0.1
+
+LABEL maintener="muhamadzaindev@mail.com"
+
+COPY . /app/tmp/build
+
+CMD [ "start" , "/server"]
+
+EXPOSE 3000
