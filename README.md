@@ -33,7 +33,7 @@ $ yarn install or npm install
 
 3. Setup your environment variable in `.env` files or rename `.env.example to .env`.
 
-4. run initialize sequalize then change config.json to config.js and copy value in config.example to config.js
+4. run initialize sequalize then change config.json to config.js and copy value in config.example to config.js and change path config.json to config.js in models index.js file
 
 ```bash
 $  yarn db:init
