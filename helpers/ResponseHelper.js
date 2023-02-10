@@ -29,6 +29,15 @@ module.exports = {
           timestamp: Date.now(),
         });
         break;
+      case "UNAUTHORIZE":
+        res.status(401).json({
+          message: message || "Unauthorized",
+          status: 401,
+          success: false,
+          data: responseBody,
+          timestamp: Date.now(),
+        });
+        break;
       case "NOTFOUND":
         res.status(404).json({
           message: message || "Data not found",
